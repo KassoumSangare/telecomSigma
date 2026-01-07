@@ -10,6 +10,7 @@ use App\Http\Controllers\backend\RoleController;
 use App\Http\Controllers\backend\CommandeServiceController;
 use App\Http\Controllers\frontend\BaseController;
 use App\Http\Controllers\frontend\HebergementController;
+use App\Http\Controllers\frontend\indexController;
 use App\Http\Controllers\frontend\NomDomaineController;
 use Illuminate\Support\Facades\Route;
 
@@ -90,7 +91,11 @@ Route::middleware(['admin'])->prefix('admin')->group(function () {
 
 
 
-
-
+// ##################################################################
+// frontend routes
+// ##################################################################
+Route::controller(indexController::class)->group(function () {
+    Route::get('/', 'index')->name('frontend.index');
+});
 
 

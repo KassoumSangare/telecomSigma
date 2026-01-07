@@ -1,0 +1,874 @@
+/* base */
+/* Scroll to top */
+#scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(135deg, #00b4ff, #007bff);
+    color: #fff;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 180, 255, 0.4);
+    z-index: 999;
+}
+
+#scrollTop.active {
+    display: flex;
+}
+
+/* end base */
+
+/* style du header */
+/* Couleurs personnalisées */
+:root {
+    --tic-dark: #0b1c2d;
+    --tic-blue: #00b4ff;
+}
+
+.topbar {
+    background-color: var(--tic-dark);
+    color: white;
+    font-size: 0.85rem;
+}
+
+.text-info {
+    color: var(--tic-blue) !important;
+}
+
+/* Bouton personnalisé */
+.btn-primary {
+    background: linear-gradient(135deg, var(--tic-blue), #007bff);
+    border: none;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 180, 255, 0.4);
+}
+
+/* Style de la Navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: var(--tic-dark);
+    padding: 1.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--tic-blue);
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    border-radius: 12px;
+    padding: 0.5rem;
+}
+
+.dropdown-item {
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 180, 255, 0.1);
+    color: var(--tic-blue);
+}
+
+/* Responsive Ajustements */
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+    }
+    .dropdown-menu {
+        border: 1px solid #eee;
+        box-shadow: none !important;
+    }
+}
+/* end style du header */
+
+/* style du footer */
+.main-footer {
+    background-color: #0b1c2d; /* Couleur sombre corporate */
+}
+
+.footer-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Soulignement décoratif sous les titres */
+.footer-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #00b4ff;
+}
+
+/* Animation des liens au survol */
+.footer-links li {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer-links li:hover {
+    transform: translateX(5px);
+}
+
+.footer-links a:hover {
+    color: #00b4ff !important;
+}
+
+/* Boutons réseaux sociaux */
+.footer-socials a {
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.footer-socials a:hover {
+    background-color: #00b4ff;
+    border-color: #00b4ff;
+    color: white !important;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+    .footer-col {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* end style du footer */
+
+/*  slide */
+
+.services-refonte {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+/* IMAGE EN ARRIÈRE PLAN VIA HTML */
+.html-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2; /* Tout au fond */
+}
+
+/* OVERLAY (CALQUE) */
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        rgba(4, 7, 8, 0.614),
+        rgba(24, 23, 23, 0.374)
+    );
+    z-index: -1; /* Entre l'image et le texte */
+}
+
+/* CARDS STYLE */
+.service-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px); /* Effet verre moderne */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    height: 100%;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #00b4ff;
+}
+
+.card-thumb {
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.service-card:hover .card-thumb img {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 25px;
+    color: #fff;
+}
+
+.card-body h4 a {
+    color: #00b4ff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.card-body p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.85;
+    margin: 0;
+}
+
+/* LIGNE DE TITRE */
+.header-line {
+    width: 80px;
+    height: 3px;
+    background: #00b4ff;
+    margin-top: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .services-refonte {
+        padding: 60px 0;
+    }
+    .card-thumb {
+        height: 150px;
+    }
+}
+
+/* end slide */
+
+/* connexion assurer */
+
+/* Configuration de la section */
+.split-bg-section {
+    position: relative;
+    width: 100%;
+    min-height: 80vh; /* 80% de la hauteur de l'écran */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+/* IMAGE EN ARRIÈRE-PLAN (Z-INDEX) */
+.html-background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Remplit tout l'espace sans déformation */
+    z-index: -2; /* Tout au fond */
+    transition: transform 0.5s ease;
+}
+
+/* OVERLAY (Filtre dégradé) */
+.split-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Dégradé de gauche (transparent) vers la droite (sombre) pour lire le texte */
+    background: linear-gradient(
+        to right,
+        rgba(11, 28, 45, 0.2) 0%,
+        rgba(11, 28, 45, 0.95) 100%
+    );
+    z-index: -1;
+}
+
+/* CARTE DE CONTENU (EFFET VERRE) */
+.content-card-glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px); /* Flou d'arrière-plan */
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.content-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* PETITE ANIMATION POUR L'ICÔNE FLOTTANTE */
+.floating-icon-box {
+    animation: float 4s ease-in-out infinite;
+    background: rgba(0, 180, 255, 0.1);
+    padding: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 180, 255, 0.2);
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+    .split-overlay {
+        /* Sur mobile, on assombrit uniformément pour la lisibilité */
+        background: rgba(11, 28, 45, 0.85);
+    }
+
+    .content-card-glass {
+        padding: 30px 20px;
+        background: transparent;
+        border: none;
+        backdrop-filter: none;
+    }
+
+    .display-5 {
+        font-size: 2.2rem;
+    }
+}
+
+/* end connexion */
+
+/* Nos engagements
+ */
+
+.corporate-identity-section {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    background-color: #0b1c2d; /* Couleur de secours */
+}
+
+/* IMAGE DE FOND HTML */
+.bg-html-asset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2; /* Tout au fond */
+    opacity: 0.6; /* Ajustez selon l'image */
+}
+
+/* OVERLAY */
+.identity-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(11, 28, 45, 0.9) 0%,
+        rgba(11, 28, 45, 0.7) 100%
+    );
+    z-index: -1;
+}
+
+/* CARTES DE CONTENU */
+.identity-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    text-align: center;
+}
+
+.identity-card:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 180, 255, 0.1);
+    border-color: #00b4ff;
+}
+
+/* La carte du milieu (Vision) peut avoir un style "actif" par défaut */
+.identity-card.active {
+    border-color: rgba(0, 180, 255, 0.4);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* STYLE DES ICÔNES */
+.icon-shape {
+    width: 70px;
+    height: 70px;
+    background: #00b4ff;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 180, 255, 0.3);
+}
+
+.identity-card h4 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+    .corporate-identity-section {
+        padding: 60px 0;
+    }
+
+    .identity-card {
+        padding: 30px 20px;
+    }
+}
+
+/* end engagements */
+
+/* Testimonial */
+
+.trust-area {
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0b1c2d;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* STYLE TÉMOIGNAGES */
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.quote-content {
+    position: relative;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+    font-size: 1.05rem;
+}
+
+.quote-content::before {
+    content: "\F28C"; /* Code icon quote Bootstrap */
+    font-family: "bootstrap-icons";
+    font-size: 2rem;
+    color: rgba(0, 180, 255, 0.1);
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.client-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* STYLE ACCORDÉON */
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: white;
+    color: #0b1c2d;
+    transition: all 0.3s;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #00b4ff;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+
+.accordion-body img {
+    max-height: 400px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.accordion-body img:hover {
+    transform: scale(1.02);
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+    .testimonial-side {
+        margin-bottom: 50px;
+    }
+}
+
+/* Personnalisation des points du carrousel */
+.slick-dots {
+    bottom: -35px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #00b4ff; /* Votre bleu */
+    opacity: 0.3;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00b4ff;
+    opacity: 1;
+}
+
+/* Espacement pour éviter que le carrousel ne touche l'accordéon */
+.testimonial-side {
+    padding-bottom: 40px;
+}
+/* end testimonial */
+
+/* confiance */
+
+/* --- Styles Généraux --- */
+.bg-primary-soft {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+.header-line {
+    width: 60px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+/* --- Section Technique (Image Fond) --- */
+.tech-service-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.bg-html-layer {
+    position: absolute;
+    top: 0;
+    right: 0; /* Positionnée à droite pour contrer le texte à gauche */
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.tech-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Dégradé pour rendre le texte lisible à gauche */
+    background: linear-gradient(
+        to right,
+        #0b1c2d 40%,
+        rgba(11, 28, 45, 0.2) 100%
+    );
+    z-index: -1;
+}
+
+.service-content-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* --- Carrousel Logos --- */
+.logo-slider-container {
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo-track {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+}
+
+.logo-item img {
+    height: 60px;
+    width: auto;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.logo-item img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* --- Responsive --- */
+@media (max-width: 991px) {
+    .bg-html-layer {
+        width: 100%;
+        right: 0;
+        opacity: 0.4;
+    }
+    .tech-overlay {
+        background: rgba(11, 28, 45, 0.85);
+    }
+    .tech-service-section {
+        min-height: auto;
+    }
+}
+
+/* end confiance */
+
+/* contact */
+/* --- Arrière-plan de la section --- */
+.contact-section {
+    background-color: #f8f9fa;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.bg-contact-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1; /* Derrière l'overlay */
+    opacity: 0.8;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        rgba(11, 28, 45, 0.9) 0%,
+        rgba(0, 180, 255, 0.4) 100%
+    );
+    z-index: 1;
+}
+
+/* --- Formulaire et Carte --- */
+.contact-box {
+    border: none;
+    z-index: 2;
+}
+
+.custom-input {
+    border: 1px solid #e1e1e1;
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #00b4ff;
+    box-shadow: 0 0 10px rgba(0, 180, 255, 0.15);
+}
+
+.captcha-box {
+    border: 1px dashed #00b4ff;
+}
+
+/* --- Bouton --- */
+.btn-primary {
+    background-color: #00b4ff;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #008ecc;
+    transform: translateY(-3px);
+}
+
+/* --- Responsive --- */
+@media (max-width: 991px) {
+    .map-wrapper iframe {
+        height: 350px !important;
+    }
+    .contact-form-p {
+        padding: 30px 20px !important;
+    }
+}
+/* contact */
+
+/* slog */
+
+/* --- Section Hero Globale --- */
+.hero-section {
+    min-height: 100vh; /* Prend toute la hauteur de l'écran */
+    background-color: #1d263065; /* Couleur de secours */
+}
+
+/* --- Image de fond (Antenne) --- */
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* L'image couvre tout sans être déformée */
+    object-position: center; /* Centre l'image */
+    z-index: -2;
+    filter: brightness(0.4); /* Assombrit un peu l'image pour le texte */
+}
+
+/* --- Calque de superposition (Overlay) --- */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Dégradé de gauche (sombre) vers la droite (plus transparent) */
+    background: linear-gradient(
+        90deg,
+        rgba(11, 28, 45, 0.9) 0%,
+        rgba(11, 28, 45, 0.4) 60%,
+        rgba(11, 28, 45, 0) 100%
+    );
+    z-index: -1;
+}
+
+/* --- Texte et Boutons --- */
+.hero-subtitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #00b4ff; /* Votre bleu primaire */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-title {
+    font-size: 3.8rem; /* Grande taille de titre */
+    line-height: 1.2;
+}
+
+.hero-description {
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-cta-buttons .btn {
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero-cta-buttons .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 180, 255, 0.3);
+}
+
+.hero-cta-buttons .btn-outline-light:hover {
+    background-color: #00b4ff;
+    color: white;
+    border-color: #00b4ff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 180, 255, 0.2);
+}
+
+/* --- Responsive pour les petits écrans --- */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 80vh; /* Moins haut sur mobile pour voir plus de contenu */
+    }
+
+    .hero-bg-img {
+        object-position: 70% center; /* Ajuste le positionnement de l'image sur mobile */
+    }
+
+    .hero-overlay {
+        /* Assombrit davantage sur mobile pour la lisibilité */
+        background: linear-gradient(
+            180deg,
+            rgba(11, 28, 45, 0.95) 0%,
+            rgba(11, 28, 45, 0.7) 100%
+        );
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero-subtitle,
+    .hero-description {
+        text-align: center;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .hero-cta-buttons .btn {
+        width: 90%; /* Boutons pleine largeur sur mobile */
+    }
+}
+
+/* end slog */
