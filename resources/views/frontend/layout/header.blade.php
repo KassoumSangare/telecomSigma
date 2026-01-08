@@ -46,7 +46,7 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" href="#">Accueil</a>
+                        <a class="nav-link active fw-bold" href="{{ route('frontend.index') }}">Accueil</a>
                     </li>
 
                     <li class="nav-item dropdown">

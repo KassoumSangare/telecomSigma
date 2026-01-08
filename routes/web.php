@@ -87,11 +87,11 @@ Route::middleware(['admin'])->prefix('admin')->group(function () {
         route::get('delete/{id}', 'delete')->name('module.delete');
     });
 
-
-
+    // contact messages
+    Route::prefix('contact')->controller(\App\Http\Controllers\backend\ContactController::class)->group(function () {
+        route::get('contact', 'contact')->name('contact.contact');
+    });
 });
-
-
 
 
 // ##################################################################
@@ -100,6 +100,7 @@ Route::middleware(['admin'])->prefix('admin')->group(function () {
 Route::controller(indexController::class)->group(function () {
     Route::get('/', 'index')->name('frontend.index');
     Route::get('/contact', 'contact')->name('frontend.contact');
+    Route::post('/contact', 'store')->name('contact.store');
 });
 
 
