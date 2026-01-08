@@ -872,3 +872,472 @@
 }
 
 /* end slog */
+
+/* autocom IP */
+
+/* --- Style Hero Breadcrumb --- */
+.hero-breadcrumb {
+    padding: 80px 0; /* Ajustez la hauteur selon vos besoins */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #0b1c2d; /* Couleur de secours */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(11, 28, 45, 0.85), rgba(11, 28, 45, 0.7));
+    z-index: 1;
+}
+
+.title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+/* Personnalisation du fil d'ariane */
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, 0.5);
+    content: "/";
+}
+/* Image de fond pour le haut de la section */
+.header-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px; /* Hauteur de l'effet de fond */
+    background-image: url("assets/img/background-tech-top.jpg"); /* Image de fond tech */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1; /* Très léger pour ne pas gêner la lecture */
+    z-index: 1;
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
+/* Ajustement de l'image de l'autocom */
+.img-wrapper img {
+    height: auto !important; /* On enlève le 940px fixe pour le responsive */
+    max-height: 700px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.img-wrapper:hover img {
+    transform: scale(1.02);
+}
+
+/* Style du tableau */
+.table thead th {
+    font-size: 0.8rem;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table tbody td {
+    font-size: 0.9rem;
+    padding: 12px 10px;
+}
+
+/* Animation et bordures */
+.about-page-content {
+    background-color: #ffffff;
+}
+
+.text-primary {
+    color: #00b4ff !important; /* Votre bleu TicAfrique */
+}
+
+.bg-primary {
+    background-color: #00b4ff !important;
+}
+/* end autocom IP */
+
+/* passerelle */
+/* --- Style du Hero (Haut de page) --- */
+.hero-breadcrumb {
+    padding: 100px 0;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(11, 28, 45, 0.8), rgba(11, 28, 45, 0.6));
+    z-index: 1;
+}
+
+.title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+/* --- Style du Contenu --- */
+.bg-primary-soft {
+    background-color: rgba(0, 180, 255, 0.1);
+}
+
+.img-floating-label {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #00b4ff;
+    color: white;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+.left-content-area img {
+    transition: transform 0.5s ease;
+}
+
+.left-content-area:hover img {
+    transform: scale(1.05);
+}
+
+.feature-icon i {
+    line-height: 1;
+    display: block;
+}
+
+/* --- Responsive --- */
+@media (max-width: 991px) {
+    .hero-breadcrumb {
+        padding: 60px 0;
+        min-height: 250px;
+    }
+    .right-content-area {
+        padding-left: 0 !important;
+    }
+}
+/* end passerelle */
+
+/* antenne */
+
+/* --- HERO SECTION --- */
+.hero-breadcrumb {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    background-color: #0b1c2d;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(11, 28, 45, 0.85), rgba(11, 28, 45, 0.7));
+    z-index: 1;
+}
+
+.title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+/* --- TIMELINE SECTION --- */
+.service-page-timeline {
+    position: relative;
+}
+
+/* Ligne centrale décorative */
+.timeline-divider {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(0, 180, 255, 0.1);
+    transform: translateX(-50%);
+}
+
+.timeline-card {
+    border: none;
+    transition: all 0.4s ease;
+    z-index: 2;
+}
+
+.timeline-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 180, 255, 0.15) !important;
+}
+
+.timeline-card .thumb img {
+    height: 280px;
+    object-fit: cover;
+}
+
+.badge-certif {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #28a745;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- RESPONSIVE --- */
+@media (min-width: 992px) {
+    .mt-lg-5 {
+        margin-top: 180px !important; /* L'effet de décalage Timeline */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-breadcrumb {
+        min-height: 250px;
+    }
+    .timeline-card {
+        margin-bottom: 30px;
+    }
+}
+
+/* antenne */
+
+/* telephonie entreprise *
+/
+/* Style pour la liste d'expertise */
+.expertise-list ul li {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.expertise-list i {
+    font-size: 1.2rem;
+}
+
+/* Amélioration de l'image */
+.left-content-area img {
+    transition: transform 0.5s ease;
+}
+
+.left-content-area:hover img {
+    transform: scale(1.03);
+}
+
+/* Couleurs TicAfrique */
+.text-primary {
+    color: #00b4ff !important;
+}
+
+.btn-primary {
+    background-color: #00b4ff;
+    border-color: #00b4ff;
+}
+
+.btn-primary:hover {
+    background-color: #008ecc;
+    border-color: #008ecc;
+}
+/* Assure que le contenu est au-dessus de l'image de fond */
+.hero-breadcrumb {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(
+        11,
+        28,
+        45,
+        0.7
+    ); /* Fond sombre pour lire le texte blanc */
+    z-index: 1;
+}
+
+.hero-breadcrumb .container {
+    z-index: 3; /* Force le texte au premier plan */
+}
+
+.title-line {
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+/* end  telephonie entreprise */
+
+/* connectivité */
+
+/* Style pour les cartes de solutions (Bâtiments, Voitures, Bateaux) */
+.bg-light.shadow-sm {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.bg-light.shadow-sm:hover {
+    transform: translateY(-5px);
+    border-color: #00b4ff !important;
+}
+
+/* Style spécifique pour le bloc d'alerte bleu */
+.bg-primary {
+    background: linear-gradient(135deg, #00b4ff 0%, #007bbd 100%) !important;
+}
+
+/* Animation de l'image */
+.left-content-area .img-wrapper img {
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.left-content-area:hover .img-wrapper img {
+    transform: scale(1.05);
+}
+
+/* end connectivité */
+
+/* interconnexion */
+/* Style pour les icônes de bénéfices */
+.bg-primary-soft {
+    background-color: rgba(0, 180, 255, 0.1);
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.benefit-item {
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.benefit-item:hover {
+    background: #f8f9fa;
+}
+
+.benefit-item h6 {
+    font-size: 1rem;
+    color: #0b1c2d;
+}
+
+/* Bordure de l'image accentuée */
+.border-primary {
+    border-color: #00b4ff !important;
+}
+/* end interconnexion */
+
+/* conseil_personnalise */
+/* Animation des icônes de conseil */
+.step-icon i {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.consulting-steps .d-flex:hover .step-icon i {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.consulting-steps h5 {
+    color: #0b1c2d;
+}
+
+/* Bouton spécifique pour TicAfrique */
+.btn-primary {
+    background-color: #00b4ff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #008ecc;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 180, 255, 0.3) !important;
+}
+/* conseil personnalisé */
+
+/* installation maintenance */
+/* Style des petits blocs d'équipements */
+.equipment-item {
+    background-color: #fdfdfd;
+    transition: all 0.3s ease;
+}
+
+.equipment-item:hover {
+    background-color: #00b4ff;
+    border-color: #00b4ff !important;
+}
+
+.equipment-item:hover i,
+.equipment-item:hover p {
+    color: #fff !important;
+}
+
+/* Style de la boîte de contrat */
+.contract-box {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.icon-check {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animation discrète du bouton */
+.animate__pulse {
+    animation-duration: 2s;
+}
+/* end installation maintenance */
+
+/* reseau */
+/* Animation et design des boîtes réseau */
+.about-page-content .border.rounded-4 {
+    transition: all 0.3s ease;
+    border: 2px solid #f8f9fa !important;
+}
+
+.about-page-content .border.rounded-4:hover {
+    transform: translateY(-8px);
+    background-color: #ffffff !important;
+    border-color: #00b4ff !important;
+    box-shadow: 0 15px 30px rgba(0, 180, 255, 0.1) !important;
+}
+
+/* Style spécifique pour l'icône ethernet/wifi */
+.bi-wifi,
+.bi-ethernet {
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+.about-page-content .border.rounded-4:hover i {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+/* Personnalisation du bouton Contact */
+.btn-primary {
+    background: linear-gradient(45deg, #00b4ff, #007bbd);
+    border: none;
+}
+/* end reseau */

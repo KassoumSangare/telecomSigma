@@ -12,6 +12,9 @@ use App\Http\Controllers\frontend\BaseController;
 use App\Http\Controllers\frontend\HebergementController;
 use App\Http\Controllers\frontend\indexController;
 use App\Http\Controllers\frontend\NomDomaineController;
+use App\Http\Controllers\frontend\NosProduitsController;
+use App\Http\Controllers\frotend\serviceController;
+use App\Http\Controllers\NosSolutionsController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -96,6 +99,30 @@ Route::middleware(['admin'])->prefix('admin')->group(function () {
 // ##################################################################
 Route::controller(indexController::class)->group(function () {
     Route::get('/', 'index')->name('frontend.index');
+    Route::get('/contact', 'contact')->name('frontend.contact');
 });
 
 
+// Nos produits
+
+Route::controller(NosProduitsController::class)->group(function () {
+    Route::get('/autocom_ip', 'autocom_ip')->name('autocom_ip');
+    Route::get('/passerelle', 'passerelle')->name('passerelle');
+    Route::get('/antenne', 'antenne')->name('antenne');
+});
+
+// Nos solutions
+Route::controller(NosSolutionsController::class)->group(function () {
+    Route::get('/telephonie_entreprise', 'telephonie_entreprise')->name('telephonie_entreprise');
+    Route::get('/connectivite', 'connectivite')->name('connectivite');
+    Route::get('/interconexion', 'interconexion')->name('interconexion');
+
+});
+
+
+// service
+Route::controller(serviceController::class)->group(function(){
+    Route::get('/conseil_personnalise','conseil_personnalise')->name('conseil_personnalise');  
+    Route::get('/installation_maintenance','installation_maintenance')->name('installation_maintenance');   
+    Route::get('/reseau','reseau')->name('reseau');
+});

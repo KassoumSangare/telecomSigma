@@ -23,10 +23,10 @@
                     TICAFRIQUE déploie des infrastructures de pointe pour optimiser la performance de votre entreprise.
                 </p>
                 <div class="hero-cta-buttons animate__animated animate__fadeInUp animate__delay-1-5s">
-                    <a href="contact" class="btn btn-primary btn-lg rounded-pill px-5 me-3 shadow-lg">
+                    <a href="{{ route('frontend.contact') }}" class="btn btn-primary btn-lg rounded-pill px-5 me-3 shadow-lg">
                         Obtenir un devis <i class="bi bi-arrow-right ms-2"></i>
                     </a>
-                    <a href="solutions" class="btn btn-outline-light btn-lg rounded-pill px-5 shadow-lg">
+                    <a href="#produits" class="btn btn-outline-light btn-lg rounded-pill px-5 shadow-lg">
                         Nos solutions <i class="bi bi-box-arrow-up-right ms-2"></i>
                     </a>
                 </div>
@@ -38,7 +38,7 @@
 
 <!-- slide -->
 
-<section class="services-refonte">
+<section class="services-refonte" id="produits">
     <img src="{{ asset('assets/images/antennes.jpg') }}" alt="Background" class="html-bg-image">
 
     <div class="bg-overlay"></div>
@@ -523,7 +523,7 @@
 
                                 <div class="col-12">
                                     <div class="captcha-box d-flex align-items-center gap-3 p-3 rounded-3 bg-light">
-                                        <label class="mb-0 text-dark small fw-bold">Sécurité : Entrez le nombre <span class="text-primary">13</span></label>
+                                        <label class="mb-0 text-dark small fw-bold">Sécurité : Entrez le nombre <span class="text-primary" id="captcha_number">13</span></label>
                                         <input type="text" name="heure" class="form-control text-center" style="width: 80px;" required>
                                     </div>
                                 </div>
@@ -546,6 +546,11 @@
 
 
 <script>
+    // captcha_number random
+
+    let captcha_number = document.querySelector('#captcha_number');
+    captcha_number.textContent = Math.floor(Math.random() * 90) + 10;
+
     document.addEventListener('DOMContentLoaded', function() {
         const track = document.getElementById('logo-track');
         const logos = Array.from(track.children);

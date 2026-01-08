@@ -12,4 +12,10 @@ class indexController extends Controller
     {
         return view('frontend.index');
     }
+
+    // contact
+    public function contact()
+    {
+        return view('frontend.contact');
+    }
 }

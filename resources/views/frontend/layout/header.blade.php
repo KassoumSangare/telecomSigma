@@ -54,9 +54,9 @@
                             Produits
                         </a>
                         <ul class="dropdown-menu shadow border-0">
-                            <li><a class="dropdown-item" href="autocomip">Autocom IP</a></li>
-                            <li><a class="dropdown-item" href="passerellegsm">Passerelle GSM</a></li>
-                            <li><a class="dropdown-item" href="antenne">Antennes</a></li>
+                            <li><a class="dropdown-item" href="{{ route('autocom_ip') }}">Autocom IP</a></li>
+                            <li><a class="dropdown-item" href="{{ route('passerelle') }}">Passerelle GSM</a></li>
+                            <li><a class="dropdown-item" href="{{ route('antenne') }}">Antennes</a></li>
                         </ul>
                     </li>
 
@@ -65,9 +65,9 @@
                             Solutions
                         </a>
                         <ul class="dropdown-menu shadow border-0">
-                            <li><a class="dropdown-item" href="telephonieentreprise">Téléphonie d’entreprise</a></li>
-                            <li><a class="dropdown-item" href="connectivite">Connectivité</a></li>
-                            <li><a class="dropdown-item" href="interconnexion">Interconnexion</a></li>
+                            <li><a class="dropdown-item" href="{{ route('telephonie_entreprise') }}">Téléphonie d’entreprise</a></li>
+                            <li><a class="dropdown-item" href="{{ route('connectivite') }}">Connectivité</a></li>
+                            <li><a class="dropdown-item" href="{{ route('interconexion') }}">Interconnexion</a></li>
                         </ul>
                     </li>
 
@@ -76,9 +76,9 @@
                             Services
                         </a>
                         <ul class="dropdown-menu shadow border-0">
-                            <li><a class="dropdown-item" href="conseilpersonnalise">Conseils</a></li>
-                            <li><a class="dropdown-item" href="installationetmaintenance">Installation & Maintenance</a></li>
-                            <li><a class="dropdown-item" href="reseau">Réseau</a></li>
+                            <li><a class="dropdown-item" href="{{ route('conseil_personnalise') }}">Conseils</a></li>
+                            <li><a class="dropdown-item" href="{{ route('installation_maintenance') }}">Installation & Maintenance</a></li>
+                            <li><a class="dropdown-item" href="{{ route('reseau') }}">Réseau</a></li>
                         </ul>
                     </li>
 
@@ -88,7 +88,7 @@
                 </ul>
 
                 <div class="d-grid d-lg-block">
-                    <a href="/devis" class="btn btn-primary rounded-pill px-4 fw-bold shadow-sm">
+                    <a href="{{ route('frontend.contact') }}" class="btn btn-primary rounded-pill px-4 fw-bold shadow-sm">
                         <i class="bi bi-file-earmark-text me-2"></i>Demander un devis
                     </a>
                 </div>
