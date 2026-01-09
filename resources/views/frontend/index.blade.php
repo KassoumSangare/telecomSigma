@@ -6,21 +6,21 @@
 
 <!-- slog -->
 <section class="hero-section position-relative overflow-hidden d-flex align-items-center">
-    <img src="{{ asset('assets/images/antenne-hero.png') }}" alt="Antenne TicAfrique" class="hero-bg-img">
+    <img src="{{ asset('assets/images/antenne-hero.png') }}" alt="Antenne Tic@frique" class="hero-bg-img">
     <div class="hero-overlay"></div>
 
     <div class="container position-relative" style="z-index: 2;">
         <div class="row align-items-center justify-content-start text-white">
             <div class="col-lg-8 col-md-10 text-center text-md-start">
                 <span class="hero-subtitle mb-3 d-block animate__animated animate__fadeInUp">
-                    TICAFRIQUE : Connectivité & Solutions IT
+                    TIC@FRIQUE : Connectivité & Solutions IT
                 </span>
                 <h1 class="hero-title display-2 fw-bold mb-4 animate__animated animate__fadeInUp animate__delay-0-5s">
                     Votre <span class="text-primary">Connexion</span>, Notre Expertise
                 </h1>
                 <p class="lead mb-5 hero-description animate__animated animate__fadeInUp animate__delay-1s">
                     Profitez d'une connexion internet rapide et fiable, même dans les zones les plus reculées.
-                    TICAFRIQUE déploie des infrastructures de pointe pour optimiser la performance de votre entreprise.
+                    TIC@FRIQUE déploie des infrastructures de pointe pour optimiser la performance de votre entreprise.
                 </p>
                 <div class="hero-cta-buttons animate__animated animate__fadeInUp animate__delay-1-5s">
                     <a href="{{ route('frontend.contact') }}" class="btn btn-primary btn-lg rounded-pill px-5 me-3 shadow-lg">
@@ -56,7 +56,7 @@
                         <img src="{{ asset('assets/images/telephonie_entreprise.jpg') }}" alt="VoIP">
                     </div>
                     <div class="card-body">
-                        <h4><a href="telephonieentreprise">Téléphonie d’entreprise</a></h4>
+                        <h4><a href="{{ route('telephonie_entreprise') }}">Téléphonie d’entreprise</a></h4>
                         <p>Expertise complète pour optimiser vos projets télécom : étude, installation et maintenance.</p>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <img src="{{ asset('assets/images/autocom.jpg') }}" alt="Autocom">
                     </div>
                     <div class="card-body">
-                        <h4><a href="autocomip">Autocoms IP</a></h4>
+                        <h4><a href="{{ route('autocom_ip') }}">Autocoms IP</a></h4>
                         <p>Continuité de service garantie. Connexion hybride : analogique, RNIS, GSM et VoIP.</p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <img src="{{ asset('assets/images/paserelle.jpg') }}" alt="Passerelle">
                     </div>
                     <div class="card-body">
-                        <h4><a href="passerellegsm">Passerelle GSM</a></h4>
+                        <h4><a href="{{ route('passerelle') }}">Passerelle GSM</a></h4>
                         <p>Disponibilité accrue, réduction drastique des coûts et qualité d'écoute supérieure.</p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                         <img src="{{ asset('assets/images/antennes.jpg') }}" alt="Antennes">
                     </div>
                     <div class="card-body">
-                        <h4><a href="antenne">Antennes</a></h4>
+                        <h4><a href="{{ route('antenne') }}">Antennes</a></h4>
                         <p>Solutions conçues pour améliorer la réception et réduire vos frais de communication.</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                         <img src="{{ asset('assets/images/connectivite1.jpg') }}" alt="Connectivité">
                     </div>
                     <div class="card-body">
-                        <h4><a href="connectivite">Connectivité</a></h4>
+                        <h4><a href="{{ route('connectivite') }}">Connectivité</a></h4>
                         <p>Stabilité réseau mobile et internet garantie, peu importe votre situation géographique.</p>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                         <img src="{{ asset('assets/images/conseil.jpg') }}" alt="Conseils">
                     </div>
                     <div class="card-body">
-                        <h4><a href="conseilpersonnalise">Conseils</a></h4>
+                        <h4><a href="{{ route('conseil_personnalise') }}">Conseils</a></h4>
                         <p>Accompagnement de la rédaction du cahier des charges jusqu'au choix final des solutions.</p>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                         <img src="{{ asset('assets/images/installation1.jpg') }}" alt="Maintenance">
                     </div>
                     <div class="card-body">
-                        <h4><a href="installationetmaintenance">Installation & Maintenance</a></h4>
+                        <h4><a href="{{ route('installation_maintenance') }}">Installation & Maintenance</a></h4>
                         <p>Service complet de déploiement et de dépannage pour tous vos équipements critiques.</p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
 
 <!-- connexion assurer -->
 <section class="split-bg-section">
-    <img src="{{ asset('assets/images/vignette2.png') }}" alt="Connectivité TICAFRIQUE" class="html-background-img">
+    <img src="{{ asset('assets/images/vignette2.png') }}" alt="Connectivité TIC@FRIQUE" class="html-background-img">
 
     <div class="split-overlay"></div>
 
@@ -169,7 +169,7 @@
                             Ce service est destiné aux entreprises et organisations installées à la campagne ou dans une zone mal desservie par les fournisseurs d’accès internet.
                         </p>
                         <p class="mb-3">
-                            <strong class="text-white">TICAFRIQUE</strong>, de par son expérience, dispose d’une expertise dans la mise en place de la connexion internet pour les zones non couvertes.
+                            <strong class="text-white">TIC@FRIQUE</strong>, de par son expérience, dispose d’une expertise dans la mise en place de la connexion internet pour les zones non couvertes.
                         </p>
                         <p class="mb-4">
                             Les cas réussis dans les carrières et zones industrielles démontrent la maturité et la solidité de la technologie déployée.
@@ -305,12 +305,12 @@
 
                         <div class="testimonial-card">
                             <div class="quote-content">
-                                <p>"TICAFRIQUE s’appuie sur le respect des valeurs qu’elle défend. Avec eux, c'est l'assurance d'optimiser votre performance réelle."</p>
+                                <p>"TIC@FRIQUE s’appuie sur le respect des valeurs qu’elle défend. Avec eux, c'est l'assurance d'optimiser votre performance réelle."</p>
                             </div>
                             <div class="client-info">
-                                <img src="{{ asset('assets/images/logoticafrique.png') }}" alt="TICAFRIQUE" class="client-logo">
+                                <img src="{{ asset('assets/images/logoticafrique.png') }}" alt="TIC@FRIQUE" class="client-logo">
                                 <div>
-                                    <h5 class="mb-0">TICAFRIQUE</h5>
+                                    <h5 class="mb-0">TIC@FRIQUE</h5>
                                     <small class="text-primary">Optimisez votre performance</small>
                                 </div>
                             </div>
@@ -331,7 +331,7 @@
 
                         <div class="testimonial-card">
                             <div class="quote-content">
-                                <p>"Nous avons apprécié l’expertise, la disponibilité et la qualité des interventions des équipes techniques de TICAFRIQUE."</p>
+                                <p>"Nous avons apprécié l’expertise, la disponibilité et la qualité des interventions des équipes techniques de TIC@FRIQUE."</p>
                             </div>
                             <div class="client-info">
                                 <img src="{{ asset('assets/images/ASSNAT.png') }}" alt="ASSNAT" class="client-logo">

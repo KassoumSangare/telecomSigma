@@ -42,7 +42,7 @@
                     </p>
 
                     <p class="text-muted">
-                        La liaison déployée par <strong>TICAFRIQUE</strong> permet à vos collaborateurs de bénéficier instantanément des applications métiers générées par vos serveurs centraux :
+                        La liaison déployée par <strong>TIC@FRIQUE</strong> permet à vos collaborateurs de bénéficier instantanément des applications métiers générées par vos serveurs centraux :
                     </p>
 
 

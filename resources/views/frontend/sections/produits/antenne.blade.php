@@ -36,7 +36,7 @@
                     <div class="content p-4">
                         <h4 class="fw-bold text-primary mb-3"><i class="bi bi-reception-4 me-2"></i>ANTENNES GSM</h4>
                         <p class="text-muted mb-3">
-                            Les antennes GSM et WIFI de <strong>TICAFRIQUE</strong> ne représentent aucun danger pour la santé car certifiées CE et RoHS reconnus globalement.
+                            Les antennes GSM et WIFI de <strong>TIC@FRIQUE</strong> ne représentent aucun danger pour la santé car certifiées CE et RoHS reconnus globalement.
                         </p>
                         <p class="text-muted small">
                             Nos solutions permettent d’amplifier la couverture du signal GSM, 3G et 4G de votre opérateur.

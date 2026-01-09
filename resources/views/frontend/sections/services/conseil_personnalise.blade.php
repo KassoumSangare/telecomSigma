@@ -27,7 +27,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="left-content-area pe-lg-4" data-aos="fade-right">
                     <div class="img-wrapper shadow-lg rounded-4 overflow-hidden border-bottom border-primary border-5">
-                        <img src="{{ asset('assets/images/conseil.jpg') }}" alt="Conseil numérique TicAfrique" class="img-fluid w-100">
+                        <img src="{{ asset('assets/images/conseil.jpg') }}" alt="Conseil numérique Tic@frique" class="img-fluid w-100">
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                     <h2 class="fw-bold mb-4">Accompagnement numérique <span class="text-primary">personnalisé</span></h2>
 
                     <p class="lead fw-bold text-dark mb-4">
-                        Misez sur les technologies pour développer votre entreprise avec TICAFRIQUE.
+                        Misez sur les technologies pour développer votre entreprise avec TIC@FRIQUE.
                     </p>
 
                     <p class="text-muted mb-4">

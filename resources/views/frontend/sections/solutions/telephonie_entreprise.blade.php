@@ -28,7 +28,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="left-content-area pe-lg-4" data-aos="fade-right">
                     <div class="img-wrapper shadow-lg rounded-4 overflow-hidden border-bottom border-primary border-5">
-                        <img src="{{ asset('assets/images/telephonie.jpg') }}" alt="Téléphonie d'entreprise TicAfrique" class="img-fluid w-100">
+                        <img src="{{ asset('assets/images/telephonie.jpg') }}" alt="Téléphonie d'entreprise Tic@frique" class="img-fluid w-100">
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <h2 class="fw-bold mb-4">Une expertise complète pour vos projets <span class="text-primary">Telecom</span></h2>
 
                     <p class="text-muted mb-4 lead">
-                        TICAFRIQUE vous accompagne dans l'optimisation et la réalisation de vos infrastructures de communication les plus complexes.
+                        TIC@FRIQUE vous accompagne dans l'optimisation et la réalisation de vos infrastructures de communication les plus complexes.
                     </p>
 
                     <div class="expertise-list">

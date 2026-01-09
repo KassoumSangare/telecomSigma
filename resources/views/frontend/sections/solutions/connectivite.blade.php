@@ -27,7 +27,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="left-content-area pe-lg-4" data-aos="zoom-in">
                     <div class="img-wrapper shadow-lg rounded-4 overflow-hidden border-bottom border-primary border-5">
-                        <img src="{{ asset('assets/images/connectivite2.jpg') }}" alt="Solutions de connectivité TicAfrique" class="img-fluid w-100">
+                        <img src="{{ asset('assets/images/connectivite2.jpg') }}" alt="Solutions de connectivité Tic@frique" class="img-fluid w-100">
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     </p>
 
                     <p class="text-muted mb-4">
-                        <strong>TICAFRIQUE</strong> conçoit des solutions sur mesure pour assurer la stabilité de vos réseaux mobiles et de votre connexion Internet, quel que soit votre environnement, même le plus isolé.
+                        <strong>TIC@FRIQUE</strong> conçoit des solutions sur mesure pour assurer la stabilité de vos réseaux mobiles et de votre connexion Internet, quel que soit votre environnement, même le plus isolé.
                     </p>
 
 

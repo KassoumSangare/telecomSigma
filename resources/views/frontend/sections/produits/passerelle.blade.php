@@ -38,7 +38,7 @@
                     <h2 class="fw-bold mb-4">Optimisez votre infrastructure avec nos <span class="text-primary">Passerelles GSM</span></h2>
 
                     <p class="text-muted mb-4 lead">
-                        Les Passerelles GSM de TICAFRIQUE sont conçues pour offrir une flexibilité maximale à vos communications d'entreprise.
+                        Les Passerelles GSM de TIC@FRIQUE sont conçues pour offrir une flexibilité maximale à vos communications d'entreprise.
                     </p>
 
                     <div class="gsm-features">

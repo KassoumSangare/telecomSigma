@@ -3,7 +3,7 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center py-2">
                 <a href="/" class="navbar-brand me-0">
-                    <img src="{{ asset('assets/images/logofini.png') }}" alt="TicAfrique Logo" height="45">
+                    <img src="{{ asset('assets/images/logofini.png') }}" alt="Tic@frique Logo" height="45">
                 </a>
 
                 <div class="d-flex gap-4">
@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
         <div class="container">
             <a href="/" class="navbar-brand d-lg-none">
-                <img src="{{ asset('assets/images/logofini.png') }}" alt="TicAfrique Logo" height="35">
+                <img src="{{ asset('assets/images/logofini.png') }}" alt="Tic@frique Logo" height="35">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">

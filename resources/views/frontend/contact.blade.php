@@ -1,6 +1,6 @@
 @extends('frontend.layout.base')
 
-@section('title','Contact - TicAfrique')
+@section('title','Contact - Tic@frique')
 
 @section('content')
 <section class="contact-section py-5 position-relative">

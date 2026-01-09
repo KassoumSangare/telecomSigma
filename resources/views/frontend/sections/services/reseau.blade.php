@@ -26,7 +26,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="left-content-area pe-lg-4" data-aos="fade-right">
                     <div class="img-wrapper shadow-lg rounded-4 overflow-hidden border-bottom border-primary border-5">
-                        <img src="{{ asset('assets/images/reseau2.jpg') }}" alt="Audit et installation réseau TicAfrique" class="img-fluid w-100">
+                        <img src="{{ asset('assets/images/reseau2.jpg') }}" alt="Audit et installation réseau Tic@frique" class="img-fluid w-100">
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     </p>
 
                     <p class="text-muted mb-4">
-                        Chez <strong>TICAFRIQUE</strong>, nous concevons des réseaux évolutifs qui supportent vos flux de données et de voix sans interruption.
+                        Chez <strong>TIC@FRIQUE</strong>, nous concevons des réseaux évolutifs qui supportent vos flux de données et de voix sans interruption.
                     </p>
 
                     <div class="row g-4 mb-5">
