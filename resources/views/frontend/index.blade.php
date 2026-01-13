@@ -13,14 +13,14 @@
         <div class="row align-items-center justify-content-start text-white">
             <div class="col-lg-8 col-md-10 text-center text-md-start">
                 <span class="hero-subtitle mb-3 d-block animate__animated animate__fadeInUp">
-                    TIC@FRIQUE : Connectivité & Solutions IT
+                    TICAFRIQUE : Connectivité & Solutions IT
                 </span>
                 <h1 class="hero-title display-2 fw-bold mb-4 animate__animated animate__fadeInUp animate__delay-0-5s">
                     Votre <span class="text-primary">Connexion</span>, Notre Expertise
                 </h1>
                 <p class="lead mb-5 hero-description animate__animated animate__fadeInUp animate__delay-1s">
                     Profitez d'une connexion internet rapide et fiable, même dans les zones les plus reculées.
-                    TIC@FRIQUE déploie des infrastructures de pointe pour optimiser la performance de votre entreprise.
+                    TICAFRIQUE déploie des infrastructures de pointe pour optimiser la performance de votre entreprise.
                 </p>
                 <div class="hero-cta-buttons animate__animated animate__fadeInUp animate__delay-1-5s">
                     <a href="{{ route('frontend.contact') }}" class="btn btn-primary btn-lg rounded-pill px-5 me-3 shadow-lg">
@@ -141,7 +141,7 @@
 
 <!-- connexion assurer -->
 <section class="split-bg-section">
-    <img src="{{ asset('assets/images/vignette2.png') }}" alt="Connectivité TIC@FRIQUE" class="html-background-img">
+    <img src="{{ asset('assets/images/vignette2.png') }}" alt="Connectivité TICAFRIQUE" class="html-background-img">
 
     <div class="split-overlay"></div>
 
@@ -169,7 +169,7 @@
                             Ce service est destiné aux entreprises et organisations installées à la campagne ou dans une zone mal desservie par les fournisseurs d’accès internet.
                         </p>
                         <p class="mb-3">
-                            <strong class="text-white">TIC@FRIQUE</strong>, de par son expérience, dispose d’une expertise dans la mise en place de la connexion internet pour les zones non couvertes.
+                            <strong class="text-white">TICAFRIQUE</strong>, de par son expérience, dispose d’une expertise dans la mise en place de la connexion internet pour les zones non couvertes.
                         </p>
                         <p class="mb-4">
                             Les cas réussis dans les carrières et zones industrielles démontrent la maturité et la solidité de la technologie déployée.
@@ -305,12 +305,12 @@
 
                         <div class="testimonial-card">
                             <div class="quote-content">
-                                <p>"TIC@FRIQUE s’appuie sur le respect des valeurs qu’elle défend. Avec eux, c'est l'assurance d'optimiser votre performance réelle."</p>
+                                <p>"TICAFRIQUE s’appuie sur le respect des valeurs qu’elle défend. Avec eux, c'est l'assurance d'optimiser votre performance réelle."</p>
                             </div>
                             <div class="client-info">
-                                <img src="{{ asset('assets/images/logoticafrique.png') }}" alt="TIC@FRIQUE" class="client-logo">
+                                <img src="{{ asset('assets/images/logoticafrique.png') }}" alt="TICAFRIQUE" class="client-logo">
                                 <div>
-                                    <h5 class="mb-0">TIC@FRIQUE</h5>
+                                    <h5 class="mb-0">TICAFRIQUE</h5>
                                     <small class="text-primary">Optimisez votre performance</small>
                                 </div>
                             </div>
@@ -331,7 +331,7 @@
 
                         <div class="testimonial-card">
                             <div class="quote-content">
-                                <p>"Nous avons apprécié l’expertise, la disponibilité et la qualité des interventions des équipes techniques de TIC@FRIQUE."</p>
+                                <p>"Nous avons apprécié l’expertise, la disponibilité et la qualité des interventions des équipes techniques de TICAFRIQUE."</p>
                             </div>
                             <div class="client-info">
                                 <img src="{{ asset('assets/images/ASSNAT.png') }}" alt="ASSNAT" class="client-logo">

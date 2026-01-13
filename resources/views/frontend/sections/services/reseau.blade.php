@@ -40,7 +40,7 @@
                     </p>
 
                     <p class="text-muted mb-4">
-                        Chez <strong>TIC@FRIQUE</strong>, nous concevons des réseaux évolutifs qui supportent vos flux de données et de voix sans interruption.
+                        Chez <strong>TICAFRIQUE</strong>, nous concevons des réseaux évolutifs qui supportent vos flux de données et de voix sans interruption.
                     </p>
 
                     <div class="row g-4 mb-5">

@@ -41,7 +41,7 @@
                     </p>
 
                     <p class="text-muted mb-4">
-                        <strong>TIC@FRIQUE</strong> conçoit des solutions sur mesure pour assurer la stabilité de vos réseaux mobiles et de votre connexion Internet, quel que soit votre environnement, même le plus isolé.
+                        <strong>TICAFRIQUE</strong> conçoit des solutions sur mesure pour assurer la stabilité de vos réseaux mobiles et de votre connexion Internet, quel que soit votre environnement, même le plus isolé.
                     </p>
 
 

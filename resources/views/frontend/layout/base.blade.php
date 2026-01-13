@@ -59,7 +59,7 @@
 
     <!-- ================= SCROLL TO TOP ================= -->
     <button id="scrollTop">
-        <i class="fas fa-arrow-up"></i>
+        <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
 
     <!-- ================= JS ================= -->

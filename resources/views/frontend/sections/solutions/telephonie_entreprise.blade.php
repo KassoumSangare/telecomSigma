@@ -38,7 +38,7 @@
                     <h2 class="fw-bold mb-4">Une expertise complète pour vos projets <span class="text-primary">Telecom</span></h2>
 
                     <p class="text-muted mb-4 lead">
-                        TIC@FRIQUE vous accompagne dans l'optimisation et la réalisation de vos infrastructures de communication les plus complexes.
+                        TICAFRIQUE vous accompagne dans l'optimisation et la réalisation de vos infrastructures de communication les plus complexes.
                     </p>
 
                     <div class="expertise-list">

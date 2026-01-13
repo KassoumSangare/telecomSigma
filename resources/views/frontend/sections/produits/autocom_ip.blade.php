@@ -43,7 +43,7 @@
                     <h2 class="fw-bold mb-4 text-dark">Solutions <span class="text-primary">Autocom IP</span> Modulaires</h2>
 
                     <div class="description-text mb-4">
-                        <p class="lead fw-normal">Les Autocommutateurs IP de TIC@FRIQUE offrent des fonctionnalités modernes et évolutives pour les petites, moyennes et grandes entreprises.</p>
+                        <p class="lead fw-normal">Les Autocommutateurs IP de TICAFRIQUE offrent des fonctionnalités modernes et évolutives pour les petites, moyennes et grandes entreprises.</p>
 
                         <p><i class="bi bi-cpu text-primary me-2"></i><strong>Système hybride :</strong> Nos IP-PBX se connectent nativement à l’analogique, au RNIS, au GSM/UMTS et aux connexions VoIP.</p>
 

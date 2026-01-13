@@ -37,7 +37,7 @@
                     <h2 class="fw-bold mb-4">Accompagnement numérique <span class="text-primary">personnalisé</span></h2>
 
                     <p class="lead fw-bold text-dark mb-4">
-                        Misez sur les technologies pour développer votre entreprise avec TIC@FRIQUE.
+                        Misez sur les technologies pour développer votre entreprise avec TICAFRIQUE.
                     </p>
 
                     <p class="text-muted mb-4">
