@@ -49,6 +49,6 @@ class indexController extends Controller
             'message'    => $validated['message'],
         ]);
 
-        return back()->with('success', 'Votre message a été enregistré. Notre équipe vous recontactera bientôt.');
+        return back()->with('success', 'Votre message a été  envoyé. Notre équipe vous recontactera bientôt. plutôt contactera.');
     }
 }

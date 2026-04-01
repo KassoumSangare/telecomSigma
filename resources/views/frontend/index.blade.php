@@ -725,7 +725,7 @@
 
 <!-- slog -->
 <section class="hero-section position-relative overflow-hidden d-flex align-items-center">
-    <img src="{{ asset('assets/images/antenne-hero.png') }}" alt="Antenne Tic@frique" class="hero-bg-img">
+    <img src="{{ asset('assets/images/antenne-hero.png') }}" alt="Antenne TicAfrique" class="hero-bg-img">
     <div class="hero-overlay"></div>
 
     <div class="container position-relative" style="z-index: 2;">
@@ -954,6 +954,7 @@
                         <li>
                             <strong class="text-info">Innovation :</strong> Procurer des solutions novatrices et explorer de nouvelles pistes de satisfaction.
                         </li>
+                    
                     </ul>
                 </div>
             </div>

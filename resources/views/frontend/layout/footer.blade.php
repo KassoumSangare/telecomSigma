@@ -6,7 +6,7 @@
                 <div class="footer-col">
                     <img src="{{ asset('assets/images/logofini.png') }}" alt="Tic@frique" class="footer-logo mb-3" style="max-height: 60px;">
                     <p class="text-white-50 small">
-                        Tic@frique accompagne les entreprises dans leurs projets
+                        TicAfrique accompagne les entreprises dans leurs projets
                         de téléphonie, connectivité et interconnexion avec des
                         solutions fiables, sécurisées et évolutives.
                     </p>
@@ -39,8 +39,8 @@
                 <div class="footer-col">
                     <h5 class="footer-title mb-4">Contact</h5>
                     <ul class="list-unstyled footer-contact text-white-50 small">
-                        <li class="mb-2"><i class="bi bi-envelope text-info me-2"></i> support@ticafrique.com</li>
-                        <li class="mb-2"><i class="bi bi-telephone text-info me-2"></i> (+225) 22 00 20 77</li>
+                        <li class="mb-2"><i class="bi bi-envelope text-info me-2"></i> commercial@ticafrique.com</li>
+                        <li class="mb-2"><i class="bi bi-telephone text-info me-2"></i> (+225)25 22 00 20 77</li>
                         <li class="mb-3"><i class="bi bi-geo-alt text-info me-2"></i> Abidjan – Côte d’Ivoire</li>
                     </ul>
                     <a href="{{ route('frontend.contact') }}" class="btn btn-primary rounded-pill px-4 btn-sm shadow-sm mt-2 fw-bold">
@@ -56,7 +56,7 @@
         <div class="row align-items-center pt-3">
             <div class="col-md-6 text-center text-md-start">
                 <p class="text-white-50 small mb-0">
-                    © {{ date('Y') }} <span class="text-white fw-bold">Tic@frique</span>. Tous droits réservés.
+                    © {{ date('Y') }} <span class="text-white fw-bold">TicAfrique</span>. Tous droits réservés.
                 </p>
             </div>
             <div class="col-md-6 text-center text-md-end">

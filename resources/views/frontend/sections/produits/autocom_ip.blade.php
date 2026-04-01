@@ -625,7 +625,7 @@
             <div class="col-lg-6">
                 <div class="left-content-area pe-lg-4">
                     <div class="img-wrapper shadow-lg rounded-4 overflow-hidden border-start border-primary border-5">
-                        <img src="{{ asset('assets/images/autocomnew_ip.jpg') }}" alt="Autocommutateurs IP Tic@frique" class="img-fluid w-100">
+                        <img src="{{ asset('assets/images/autocomnew_ip.jpg') }}" alt="Autocommutateurs IP TicAfrique" class="img-fluid w-100">
                     </div>
                 </div>
             </div>

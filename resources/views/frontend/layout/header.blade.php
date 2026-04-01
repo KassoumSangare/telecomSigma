@@ -10,15 +10,15 @@
                     <div class="d-flex align-items-center gap-2">
                         <i class="bi bi-envelope-at text-info fs-4"></i>
                         <div class="lh-sm">
-                            <small class="d-block text-uppercase opacity-75">Support Technique</small>
-                            <span class="fw-bold">support@ticafrique.com</span>
+                            <small class="d-block text-uppercase opacity-75">Service Commercial</small>
+                            <span class="fw-bold">commercial@ticafrique.com</span>
                         </div>
                     </div>
                     <div class="d-flex align-items-center gap-2">
                         <i class="bi bi-telephone-outbound text-info fs-4"></i>
                         <div class="lh-sm">
                             <small class="d-block text-uppercase opacity-75">Service Client</small>
-                            <span class="fw-bold">(+225) 22 00 20 77</span>
+                            <span class="fw-bold">(+225) 25 22 00 20 77</span>
                         </div>
                     </div>
                     <div class="d-flex align-items-center gap-2">
@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
         <div class="container">
             <a href="/" class="navbar-brand d-lg-none">
-                <img src="{{ asset('assets/images/logofini.png') }}" alt="Tic@frique Logo" height="35">
+                <img src="{{ asset('assets/images/logofini.png') }}" alt="TicAfrique Logo" height="35">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
